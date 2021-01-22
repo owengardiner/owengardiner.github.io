@@ -1,0 +1,132 @@
+body {
+  background-color:black;
+   font-family:"Helvetica",sans-serif;
+  color:whitesmoke;
+}
+
+.cardimg
+{
+  width:50%;
+  float:right;
+  border: red solid 5px;
+  margin-left:10px;
+  border-radius:10px;
+}
+img {
+  border: 2px solid White;
+}
+img:hover {
+  border: 2px dashed Navy;
+}
+
+    
+h3{
+  color:red;
+  font-weight:bold;
+}
+
+nav ul {
+    background-color:white;
+    border-style: solid;
+  border-color: Red;
+  border-width: 2px;
+  border-radius:10px;
+}
+
+ nav ul li{
+   list-style-type:none;
+   display:inline;
+   margin-left: 10px;
+   margin-right:10px;
+  padding: 10px;
+  color:gray;
+ }
+nav ul li a {
+  text-decoration:none;
+  color:black;
+}
+
+.topDivider {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: white;
+  padding-bottom: 10px;
+}
+
+#myCoolText {
+    color: #003366;
+    border: 2px ridge #ccffff;
+    padding: 15px;
+    text-align: center;
+    
+    color: #003366;
+    border: 2px ridge #ccffff;
+    padding: 15px;
+    text-align: center;
+    animation-name: rainbowGlow;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+}
+    @keyframes slide {
+    from {
+        background-position-x: 0;
+    }
+    to {
+        background-position-x: 600vw;
+} 
+}
+#frontPage {
+  
+    
+    background: repeating-linear-gradient(-45deg, #000 15%, gray 25%);
+
+    background-size: 600vw 600vw;
+    animation: slide 40s infinite linear forwards;
+}
+  
+
+@keyframes myFirstAnimation {
+    from {
+        width: 100px;
+    }
+    to {
+        width: 300px;
+    }
+  }
+.niceLinks {
+  text-decoration: none;
+  color: #FFFAF0;
+}
+.niceLinks:hover {
+  color:black;
+}
+
+
+
+
+
+
+
+
+
+/**********************************
+This section is for styling tables
+***********************************/
+table, th, td {
+  border: 1px solid HoneyDew;
+  border-collapse: collapse;
+}
+tr {
+  background-color: white}
+th, td {
+  vertical-align: top;
+  padding: 5px;
+  text-align: left;
+}
+th {
+  color:red;
+}
+td {
+  color:red;
+}
+/********************************/
