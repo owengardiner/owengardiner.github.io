@@ -78,7 +78,7 @@ nav ul li a {
 #frontPage {
   
     
-    background: repeating-linear-gradient(-45deg, #000 15%, gray 25%);
+    background: repeating-linear-gradient(-45deg, #000 15%, gray 25%,red 10%);
 
     background-size: 600vw 600vw;
     animation: slide 40s infinite linear forwards;
